@@ -1,0 +1,478 @@
+2023-03-03 02:26:03,121 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 02:26:04,036 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 02:26:04,091 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 02:26:04,091 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 02:26:14,763 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-03 02:53:12,763 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 02:53:13,678 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 02:53:13,727 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 02:53:13,728 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 02:53:14,561 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-03 06:49:42,361 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 06:49:44,490 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 06:49:44,491 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 06:49:45,762 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 06:49:45,826 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 06:49:45,827 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 07:33:43,032 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:33:43,883 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:33:43,884 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 07:33:44,782 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 07:33:44,890 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 07:33:44,891 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 07:33:52,007 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:33:52,461 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:33:52,469 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:33:52,756 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:33:52,757 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:33:52,758 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:33:52,759 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:33:52,825 - elmo.py[line:174] - Initializing ELMo.
+2023-03-03 07:33:53,517 - file_utils.py[line:239] - https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x1024_128_2048cnn_1xhighway/elmo_2x1024_128_2048cnn_1xhighway_options.json not found in cache, downloading to /tmp/tmp5eb5ky3g
+2023-03-03 07:33:54,237 - file_utils.py[line:252] - copying /tmp/tmp5eb5ky3g to cache at /root/.allennlp/cache/d17be25fc4ba01905d2d8c1e95e33e4f13ed30c2c0eded7c85adbe8024a64fb0.ec3ff337fc54571b0bc0a928889d7df50ddd833520815c041c4dc4c0cb201644
+2023-03-03 07:33:54,238 - file_utils.py[line:256] - creating metadata file for /root/.allennlp/cache/d17be25fc4ba01905d2d8c1e95e33e4f13ed30c2c0eded7c85adbe8024a64fb0.ec3ff337fc54571b0bc0a928889d7df50ddd833520815c041c4dc4c0cb201644
+2023-03-03 07:33:54,239 - file_utils.py[line:262] - removing temp file /tmp/tmp5eb5ky3g
+2023-03-03 07:33:54,923 - file_utils.py[line:239] - https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x1024_128_2048cnn_1xhighway/elmo_2x1024_128_2048cnn_1xhighway_weights.hdf5 not found in cache, downloading to /tmp/tmp7gfa97sc
+2023-03-03 07:34:05,729 - file_utils.py[line:252] - copying /tmp/tmp7gfa97sc to cache at /root/.allennlp/cache/2b1f7b09924bad70f5670315dd9af048f457fbe79c0d15bd31fd41c99a2564c8.52809e52f2890a0133eb93be9190ea84e95b5973d4c5d5323c42ca3f028c0701
+2023-03-03 07:34:05,864 - file_utils.py[line:256] - creating metadata file for /root/.allennlp/cache/2b1f7b09924bad70f5670315dd9af048f457fbe79c0d15bd31fd41c99a2564c8.52809e52f2890a0133eb93be9190ea84e95b5973d4c5d5323c42ca3f028c0701
+2023-03-03 07:34:05,866 - file_utils.py[line:262] - removing temp file /tmp/tmp7gfa97sc
+2023-03-03 07:38:17,240 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:38:18,073 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:38:18,074 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 07:38:18,933 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 07:38:18,982 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 07:38:18,982 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 07:38:24,347 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:38:24,552 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:38:24,556 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:38:24,751 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:38:24,752 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:38:24,753 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:38:24,754 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:38:24,805 - elmo.py[line:174] - Initializing ELMo.
+2023-03-03 07:38:34,645 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-03 07:46:09,779 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:46:10,693 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:46:10,694 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 07:46:11,592 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 07:46:11,647 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 07:46:11,648 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 07:46:18,316 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:46:18,527 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:46:18,532 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:46:18,993 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:46:18,994 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:46:18,995 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:46:18,996 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:46:19,048 - elmo.py[line:174] - Initializing ELMo.
+2023-03-03 07:46:28,858 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-03 07:48:20,761 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:48:22,345 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:48:22,346 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 07:48:23,647 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 07:48:23,706 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 07:48:23,707 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 07:48:29,217 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:48:29,360 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:48:29,363 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:48:29,494 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:48:29,495 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:48:29,496 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:48:29,496 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:48:29,528 - elmo.py[line:174] - Initializing ELMo.
+2023-03-03 07:48:39,774 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-03 07:49:26,931 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:49:28,052 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:49:28,053 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 07:49:29,306 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 07:49:29,361 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 07:49:29,361 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 07:49:35,575 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:49:35,711 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:49:35,714 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:49:35,838 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:49:35,839 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:49:35,839 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:49:35,840 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:49:35,871 - elmo.py[line:174] - Initializing ELMo.
+2023-03-03 07:49:46,035 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-03 07:51:35,218 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:51:36,081 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:51:36,082 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 07:51:37,001 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 07:51:37,053 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 07:51:37,053 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 07:51:43,623 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:51:43,836 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:51:43,840 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:51:44,044 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:51:44,045 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:51:44,046 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:51:44,047 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:51:44,100 - elmo.py[line:174] - Initializing ELMo.
+2023-03-03 07:51:53,903 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-03 07:55:37,472 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:55:38,416 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:55:38,417 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 07:55:39,688 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 07:55:39,743 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 07:55:39,744 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 07:55:46,033 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:55:46,175 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:55:46,178 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:55:46,304 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:55:46,305 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:55:46,306 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:55:46,306 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:55:46,338 - elmo.py[line:174] - Initializing ELMo.
+2023-03-03 07:55:56,565 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-03 07:57:46,938 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:57:47,821 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 07:57:47,822 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 07:57:48,700 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 07:57:48,750 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 07:57:48,751 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 07:57:55,026 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:57:55,245 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:57:55,249 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 07:57:55,451 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:57:55,452 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:57:55,454 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:57:55,455 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 07:57:55,505 - elmo.py[line:174] - Initializing ELMo.
+2023-03-03 07:58:05,325 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-03 08:21:57,749 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 08:21:58,624 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 08:21:58,625 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 08:21:59,506 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 08:21:59,557 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 08:21:59,557 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 08:22:04,266 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 08:22:04,405 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 08:22:04,407 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 08:22:04,543 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 08:22:04,544 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 08:22:04,545 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 08:22:04,546 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 08:22:04,578 - elmo.py[line:174] - Initializing ELMo.
+2023-03-03 08:22:14,409 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-03 08:30:26,535 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 08:30:27,405 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 08:30:27,406 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 08:30:28,309 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 08:30:28,361 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 08:30:28,361 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 08:30:33,053 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 08:30:33,209 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 08:30:33,211 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 08:30:33,350 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 08:30:33,351 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 08:30:33,352 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 08:30:33,352 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 08:30:33,385 - elmo.py[line:174] - Initializing ELMo.
+2023-03-03 08:30:43,102 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-03 08:50:38,751 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 08:50:39,763 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 08:50:39,764 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 08:50:41,009 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 08:50:41,062 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 08:50:41,063 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 08:50:47,284 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 08:50:47,428 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 08:50:47,431 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 08:50:47,557 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 08:50:47,558 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 08:50:47,559 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 08:50:47,559 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 08:50:47,591 - elmo.py[line:174] - Initializing ELMo.
+2023-03-03 08:50:57,560 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-03 09:06:06,384 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 09:06:07,264 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 09:06:07,265 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 09:06:08,225 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 09:06:08,277 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 09:06:08,278 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 09:06:14,556 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 09:06:14,773 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 09:06:14,777 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 09:06:14,981 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:06:14,982 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:06:14,983 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:06:14,983 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:06:15,037 - elmo.py[line:174] - Initializing ELMo.
+2023-03-03 09:06:24,688 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-03 09:18:09,926 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 09:18:10,798 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 09:18:10,799 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 09:18:11,706 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 09:18:11,758 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 09:18:11,758 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 09:18:18,043 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 09:18:18,255 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 09:18:18,260 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 09:18:18,459 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:18:18,461 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:18:18,461 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:18:18,462 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:18:18,516 - elmo.py[line:174] - Initializing ELMo.
+2023-03-03 09:18:28,222 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-03 09:22:57,617 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 09:22:58,486 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 09:22:58,487 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 09:22:59,365 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 09:22:59,417 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 09:22:59,417 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 09:23:05,917 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 09:23:06,145 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 09:23:06,149 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 09:23:06,350 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:23:06,351 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:23:06,352 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:23:06,352 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:23:06,404 - elmo.py[line:174] - Initializing ELMo.
+2023-03-03 09:23:16,284 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-03 09:27:31,913 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 09:27:33,470 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-03 09:27:33,471 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-03 09:27:34,785 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-03 09:27:34,843 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-03 09:27:34,844 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-03 09:27:40,328 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 09:27:40,466 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 09:27:40,470 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-03 09:27:40,595 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:27:40,596 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:27:40,597 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:27:40,597 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-03 09:27:40,632 - elmo.py[line:174] - Initializing ELMo.
+2023-03-03 09:27:50,698 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-04 09:00:29,966 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:00:31,799 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:00:31,800 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-04 09:00:32,700 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-04 09:00:32,884 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-04 09:00:32,885 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-04 09:01:21,755 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:01:22,139 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:01:22,142 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:01:22,356 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:01:22,357 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:01:22,358 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:01:22,358 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:01:22,411 - elmo.py[line:174] - Initializing ELMo.
+2023-03-04 09:01:23,113 - file_utils.py[line:239] - https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x1024_128_2048cnn_1xhighway/elmo_2x1024_128_2048cnn_1xhighway_options.json not found in cache, downloading to /tmp/tmp0h_ahs36
+2023-03-04 09:01:23,880 - file_utils.py[line:252] - copying /tmp/tmp0h_ahs36 to cache at /root/.allennlp/cache/d17be25fc4ba01905d2d8c1e95e33e4f13ed30c2c0eded7c85adbe8024a64fb0.ec3ff337fc54571b0bc0a928889d7df50ddd833520815c041c4dc4c0cb201644
+2023-03-04 09:01:23,881 - file_utils.py[line:256] - creating metadata file for /root/.allennlp/cache/d17be25fc4ba01905d2d8c1e95e33e4f13ed30c2c0eded7c85adbe8024a64fb0.ec3ff337fc54571b0bc0a928889d7df50ddd833520815c041c4dc4c0cb201644
+2023-03-04 09:01:23,882 - file_utils.py[line:262] - removing temp file /tmp/tmp0h_ahs36
+2023-03-04 09:01:24,584 - file_utils.py[line:239] - https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x1024_128_2048cnn_1xhighway/elmo_2x1024_128_2048cnn_1xhighway_weights.hdf5 not found in cache, downloading to /tmp/tmpktlta6bm
+2023-03-04 09:01:29,953 - file_utils.py[line:252] - copying /tmp/tmpktlta6bm to cache at /root/.allennlp/cache/2b1f7b09924bad70f5670315dd9af048f457fbe79c0d15bd31fd41c99a2564c8.52809e52f2890a0133eb93be9190ea84e95b5973d4c5d5323c42ca3f028c0701
+2023-03-04 09:01:30,110 - file_utils.py[line:256] - creating metadata file for /root/.allennlp/cache/2b1f7b09924bad70f5670315dd9af048f457fbe79c0d15bd31fd41c99a2564c8.52809e52f2890a0133eb93be9190ea84e95b5973d4c5d5323c42ca3f028c0701
+2023-03-04 09:01:30,110 - file_utils.py[line:262] - removing temp file /tmp/tmpktlta6bm
+2023-03-04 09:01:43,229 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-04 09:05:53,886 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:05:54,934 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:05:54,935 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-04 09:05:55,888 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-04 09:05:55,940 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-04 09:05:55,940 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-04 09:06:03,417 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:06:03,553 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:06:03,556 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:06:03,677 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:06:03,678 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:06:03,679 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:06:03,679 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:06:03,712 - elmo.py[line:174] - Initializing ELMo.
+2023-03-04 09:06:14,206 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-04 09:13:14,557 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:13:15,661 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:13:15,662 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-04 09:13:16,541 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-04 09:13:16,591 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-04 09:13:16,592 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-04 09:13:22,365 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:13:22,503 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:13:22,506 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:13:22,628 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:13:22,629 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:13:22,629 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:13:22,630 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:13:22,661 - elmo.py[line:174] - Initializing ELMo.
+2023-03-04 09:13:32,929 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-04 09:14:58,138 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:14:58,971 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:14:58,972 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-04 09:14:59,853 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-04 09:14:59,904 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-04 09:14:59,904 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-04 09:15:07,139 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:15:07,343 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:15:07,347 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:15:07,538 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:15:07,539 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:15:07,540 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:15:07,541 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:15:07,591 - elmo.py[line:174] - Initializing ELMo.
+2023-03-04 09:15:17,929 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-04 09:17:29,474 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:17:30,999 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:17:31,000 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-04 09:17:32,284 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-04 09:17:32,342 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-04 09:17:32,343 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-04 09:17:38,554 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:17:38,689 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:17:38,692 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:17:38,824 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:17:38,825 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:17:38,825 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:17:38,826 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:17:38,859 - elmo.py[line:174] - Initializing ELMo.
+2023-03-04 09:17:49,825 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-04 09:32:56,559 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:32:57,412 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:32:57,413 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-04 09:32:58,281 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-04 09:32:58,331 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-04 09:32:58,331 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-04 09:33:03,916 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:33:04,051 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:33:04,054 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:33:04,188 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:33:04,188 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:33:04,189 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:33:04,190 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:33:04,221 - elmo.py[line:174] - Initializing ELMo.
+2023-03-04 09:33:14,546 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-04 09:56:11,278 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:56:12,462 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:56:12,463 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-04 09:56:13,747 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-04 09:56:13,802 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-04 09:56:13,802 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-04 09:56:20,490 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:56:20,635 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:56:20,638 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:56:20,761 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:56:20,762 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:56:20,762 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:56:20,763 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:56:20,794 - elmo.py[line:174] - Initializing ELMo.
+2023-03-04 09:56:31,492 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-04 09:57:20,539 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:57:21,798 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 09:57:21,799 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-04 09:57:23,038 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-04 09:57:23,092 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-04 09:57:23,092 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-04 09:57:29,739 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:57:29,879 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:57:29,882 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 09:57:30,006 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:57:30,006 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:57:30,007 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:57:30,008 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 09:57:30,039 - elmo.py[line:174] - Initializing ELMo.
+2023-03-04 09:57:40,620 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-04 10:15:57,329 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 10:15:59,397 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 10:15:59,404 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-04 10:16:00,901 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-04 10:16:00,997 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-04 10:16:00,999 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-04 10:16:08,264 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 10:16:08,408 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 10:16:08,411 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 10:16:08,536 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 10:16:08,537 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 10:16:08,538 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 10:16:08,538 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 10:16:08,572 - elmo.py[line:174] - Initializing ELMo.
+2023-03-04 10:16:19,167 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-04 10:44:00,212 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 10:44:01,086 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 10:44:01,087 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-04 10:44:01,942 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-04 10:44:01,996 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-04 10:44:01,996 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-04 10:44:07,921 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 10:44:08,121 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 10:44:08,125 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 10:44:08,325 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 10:44:08,326 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 10:44:08,327 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 10:44:08,327 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 10:44:08,378 - elmo.py[line:174] - Initializing ELMo.
+2023-03-04 10:44:18,649 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-04 10:48:49,077 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 10:48:49,927 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 10:48:49,928 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-04 10:48:50,801 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-04 10:48:50,851 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-04 10:48:50,851 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-04 10:48:56,477 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 10:48:56,620 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 10:48:56,623 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 10:48:56,750 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 10:48:56,751 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 10:48:56,752 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 10:48:56,752 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 10:48:56,785 - elmo.py[line:174] - Initializing ELMo.
+2023-03-04 10:49:07,350 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-04 11:45:20,090 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 11:45:21,596 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 11:45:21,597 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-04 11:45:22,996 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-04 11:45:23,046 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-04 11:45:23,047 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-04 11:45:28,459 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 11:45:28,595 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 11:45:28,598 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 11:45:28,724 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 11:45:28,725 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 11:45:28,726 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 11:45:28,726 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 11:45:28,760 - elmo.py[line:174] - Initializing ELMo.
+2023-03-04 11:45:39,106 - main.py[line:65] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-04 12:02:01,536 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 12:02:02,401 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 12:02:02,401 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-04 12:02:03,272 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-04 12:02:03,322 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-04 12:02:03,323 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-04 12:02:08,951 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 12:02:09,090 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 12:02:09,093 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 12:02:09,223 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 12:02:09,223 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 12:02:09,224 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 12:02:09,225 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 12:02:09,257 - elmo.py[line:174] - Initializing ELMo.
+2023-03-04 12:02:19,531 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-04 12:15:01,904 - main.py[line:88] - End 0 epoch train,spend time 762.3560864925385.
+The arch_parmeters is tensor([-1.6327,  1.1534,  0.3961,  1.9434,  1.3200,  0.0532,  1.4774],
+       device='cuda:0', requires_grad=True),the top 3 parameters is torch.return_types.topk(
+values=tensor([1.9434, 1.4774, 1.3200], device='cuda:0', grad_fn=<TopkBackward0>),
+indices=tensor([3, 6, 4], device='cuda:0')) 
+2023-03-04 12:15:01,905 - main.py[line:106] - Start dev
+2023-03-04 12:26:53,041 - utils_any2vec.py[line:170] - loading projection weights from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 12:26:54,434 - utils_any2vec.py[line:232] - loaded (100000, 50) matrix from /root/.flair/embeddings/en/en.wiki.bpe.vs100000.d50.w2v.bin
+2023-03-04 12:26:54,435 - utils.py[line:418] - loading Word2VecKeyedVectors object from /root/.flair/embeddings/glove.gensim
+2023-03-04 12:26:55,705 - utils.py[line:456] - loading vectors from /root/.flair/embeddings/glove.gensim.vectors.npy with mmap=None
+2023-03-04 12:26:55,759 - utils.py[line:487] - setting ignored attribute vectors_norm to None
+2023-03-04 12:26:55,760 - utils.py[line:424] - loaded /root/.flair/embeddings/glove.gensim
+2023-03-04 12:27:03,034 - modeling.py[line:230] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 12:27:03,179 - modeling_bert.py[line:226] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 12:27:03,182 - modeling_xlnet.py[line:339] - Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex .
+2023-03-04 12:27:03,315 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 12:27:03,316 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 12:27:03,316 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 12:27:03,317 - registrable.py[line:73] - instantiating registered subclass relu of <class 'allennlp.nn.activations.Activation'>
+2023-03-04 12:27:03,352 - elmo.py[line:174] - Initializing ELMo.
+2023-03-04 12:27:13,884 - main.py[line:63] - -------------------------------start 0 epoch train-----------------------------------
+2023-03-04 12:39:54,975 - main.py[line:88] - End 0 epoch train,spend time 761.0795946121216.
+The arch_parmeters is tensor([-0.3662, -2.1757,  1.1188, -0.2588, -1.3765,  0.2981,  0.8792],
+       device='cuda:0', requires_grad=True),the top 3 parameters is torch.return_types.topk(
+values=tensor([1.1188, 0.8792, 0.2981], device='cuda:0', grad_fn=<TopkBackward0>),
+indices=tensor([2, 6, 5], device='cuda:0')) 
+2023-03-04 12:39:54,975 - main.py[line:106] - Start test

@@ -1,0 +1,12 @@
+<pad>
+B-ORG
+I-ORG
+B-PER
+B-LOC
+B-MISC
+I-PER
+I-LOC
+I-MISC
+O
+<start>
+<eos>
